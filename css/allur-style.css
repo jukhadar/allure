@@ -1,0 +1,80 @@
+
+/* 
+    Created on : Aug 16, 2015, 4:28:25 PM
+    Author     : jukhadar
+*/
+h1,h4,h6,h5{
+	color:#652d8a ;
+	font-family: 'Lora', serif;
+	
+}
+h2{
+	color:#652d8a ;
+	font-family: 'Lora', serif;
+	-webkit-animation:   slideInUp 4s;
+}
+h4{
+	font-family: 'Lora', serif;
+	-webkit-animation:  4s ;
+}
+body{
+    background-color: #e4e4e4;
+    font-family: 'Lora', serif;
+ 		
+  		background-color: #e4e4e4;
+  		background-image:
+    		radial-gradient(
+     	circle at bottom right,
+    		#9c7bb7,
+      	#e4e4e4 30%
+    );
+}
+.button{
+    background-color: #652d8a;
+    border-color: #e4e4e4;
+}
+
+.intro{
+	line-height: 25px;
+    font-size: 18px;
+}
+.envelop{
+	margin-top: 33%;
+	-webkit-animation: slideInDown 2s ;
+}
+
+.social  a{
+	color:#652d8a ;
+}
+
+.lightboxcontainer {
+  width:100%;
+  text-align:left;
+}
+.lightboxleft {
+  width: 40%;
+  float:left;
+}
+.lightboxright {
+  width: 60%;
+  float:left;
+}
+.lightboxright iframe {
+  min-height: 390px;
+}
+.divtext {
+  margin: 36px;
+}
+@media (max-width: 800px) {
+  .lightboxleft {
+    width: 100%;
+  }
+  .lightboxright {
+    width: 100%;
+  }
+  .divtext {
+    margin: 12px;
+  }
+}
+	
+	
